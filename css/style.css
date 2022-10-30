@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color:  hsl(0, 0%, 98%);
+}
+
+h1{
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+h2{
+    margin-top: -1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p{
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+
+div{
+    box-sizing: border-box;
+    text-align: left;
+    padding-right: 4rem;
+    padding-left: 1.5rem;
+    width: 22.5rem;
+    height: 15rem;
+    border-radius: .5rem;
+    background-color: #fff;
+}
+
+img{
+    position: relative;
+    top: 10%;
+    left: 90%;
+}
+
+.con1{
+    position: relative;
+    top: 1rem;
+    margin: auto;
+    border-top: .5rem solid hsl(0, 78%, 62%);
+}
+
+.con2{
+    border-top: .5rem solid hsl(180, 62%, 55%);
+    position: relative;
+    top: -5rem;
+    left: 5.5%;
+}
+
+.con3{
+    border-top: .5rem solid hsl(34, 97%, 64%);
+    position: relative;
+    top: -12.5rem;
+    margin: auto;
+}
+
+.con4{
+    border-top: .5rem solid hsl(212, 86%, 64%);
+    position: relative;
+    top: -35rem;
+    right: -65.9%;
+}
+
+@media  (max-width : 768px){
+    
+    .con1{
+        position: relative;
+        top: 1rem;
+        right: 11rem;
+        width: 40%;
+    }
+    .con2{
+        position: relative;
+        top: -14rem;
+        left: 25rem;
+        width: 40%;
+    }
+    .con3{
+        position: relative;
+        top: -12.5rem;
+        right: 11rem;
+        width: 40%;
+    }
+    .con4{
+        position: relative;
+        top: -27.5rem;
+        left: 25rem;
+        width: 40%;
+    }
+}    
+@media (max-width : 375px){
+
+    h1{
+        font-size: 1.5rem;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .head1{
+        width: 65%;
+        padding: 0 4rem 0;
+    }
+
+    .con1{
+        width: 75%;
+        margin: 0 14.5rem 0;
+    }
+
+    .con2{
+        width: 75%;
+        position: relative;
+        left: 3.5rem;
+        top: 2rem;
+    }
+
+   .con3{
+       width: 75%;
+       position: relative;
+       top: 3rem;
+       left: .5rem;
+   }
+
+   .con4{
+       width: 75%;
+       position: relative;
+       top: 4rem;
+       left: 3.5rem;
+   }
+}
+ 
