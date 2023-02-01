@@ -1,0 +1,149 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color:hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+h2{
+    margin-top: -1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p{
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+
+section{
+    display: grid;
+    grid-template-columns: 22.5rem 22.5rem 22.5rem;
+    grid-template-rows: 17.5rem 17.5rem;
+}
+
+div{
+    box-sizing: border-box;
+    text-align: left;
+    padding-right: 4rem;
+    padding-left: 1.5rem;
+    width: 20rem;
+    height: 15rem;
+    border-radius: .5rem;
+    background-color: #fff;
+}
+
+img{
+    position: relative;
+    top: 10%;
+    left: 90%;
+}
+
+.con1{
+    border-top: .5rem solid hsl(0, 78%, 62%);
+    margin: 10rem 0;
+}
+
+.con2{
+    border-top: .5rem solid hsl(180, 62%, 55%);
+}
+
+.con3{
+    border-top: .5rem solid hsl(34, 97%, 64%);
+    margin: 10rem 0;
+}
+
+.con4{
+    border-top: .5rem solid hsl(212, 86%, 64%);
+    grid-column: 2/2;
+}
+
+@media  (max-width : 1024px){
+
+    section{
+        grid-template-columns: 19rem 19rem;
+        grid-template-rows: 17rem 17rem;
+    }
+    
+    .con1, .con2, .con3, .con4{
+        margin: 0;
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .con4{
+        grid-column: 0;
+    }
+}    
+@media (max-width : 480px){
+
+    header{
+        position: relative;
+        top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    h2{
+        position: relative;
+        top: 1rem;
+    }
+
+    .head1{
+        text-align: center;
+        font-size: .75rem;
+        font-weight: 200;
+        padding: 0 3.5rem;
+    }
+
+    h1{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    h2{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 65rem;
+        padding: 0;
+        margin: 0;
+        position: inherit;
+    }
+
+    .con1, .con2, .con3, .con4{
+        height: 12.5rem;  
+        padding: 0 1rem;  
+    }
+
+    .con1, .con2, .con3, .con4 p{
+        font-size: .8rem;
+        font-weight: 200;
+    }
+
+    img{
+        position: relative;
+        left: 65%;
+        width: 35%;
+    }
+}
+ 
